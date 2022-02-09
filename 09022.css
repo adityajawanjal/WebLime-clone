@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    border:3px solid yellow;
+    height:40vh;
+    width:100%;
+    background-color:yellow;  
+}
+img{
+    width:25%;
+    height:30vh;
+    transform:rotate(25deg);
+}
+#img2{
+    float:right;
+}
+div h2{
+    text-align: center;
+    font-size:2em;
+    margin:0;
+    display:inline-block;
+    position:relative;
+    left:35%;
+    top:-170px;
+}
+.search{
+    position:relative;
+    left:35%;
+    top:-150px;
+}
+input[type="text"]{
+    width:250px;
+    height:30px;
+}
+.words{
+    position:relative;
+    left:30%;
+    top:-130px;
+    width:500px;
+    padding:5px 20px;
+    text-justify: auto;
+}
